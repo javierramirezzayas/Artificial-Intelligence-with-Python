@@ -1,8 +1,8 @@
 # This is a variant of the Connect Four recipe given in the easyAI library
 
 import numpy as np
-from easyAI import TwoPlayersGame, Human_Player, AI_Player, \
-        Negamax, SSS
+from Chapter09.code.easyAI import TwoPlayersGame,AI_Player
+from Chapter09.code.easyAI.AI import Negamax, SSS
 
 class GameController(TwoPlayersGame):
     def __init__(self, players, board = None):
