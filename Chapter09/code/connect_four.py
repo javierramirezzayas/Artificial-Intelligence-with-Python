@@ -4,6 +4,8 @@ import numpy as np
 from Chapter09.code.easyAI import TwoPlayersGame,AI_Player
 from Chapter09.code.easyAI.AI import Negamax, SSS
 
+#comment
+
 class GameController(TwoPlayersGame):
     def __init__(self, players, board = None):
         # Define the players
